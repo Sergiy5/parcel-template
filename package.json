@@ -1,11 +1,11 @@
 {
   "name": "parcel-template",
   "version": "2.0.0",
-  "description": "",
+  "description": "Цей проект створено за допомогою Parcel. Для ознайомлення та налаштування \r додаткових можливостей, [зверніться до документації](https://parceljs.org/).",
   "homepage": "https://Sergiy5.github.io/parcel-template",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-template/"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /parcel-template/"
   },
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
@@ -19,5 +19,12 @@
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Sergiy5/parsel-test)"
+  },
+  "author": "",
+  "license": "ISC"
 }
